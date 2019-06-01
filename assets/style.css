@@ -264,6 +264,13 @@ textarea{
 #projects3{
     clear: both;
 }
+#divHeaderContact{
+    width: 910px;
+    border-bottom: 2px solid #cccccc;
+    margin: 0 auto;
+    color: #4aaaa5;
+    padding: 10px;
+}
 
 /* ------------MEDIA Quieries ----------------*/
 
@@ -274,6 +281,33 @@ textarea{
         width:700px;
         margin-left: 10px;
     }
+    #jumbotronPortfolio{
+        width: 600px;
+        margin-left: 30px;
+    }
+    #divHeader{
+        width: 560px;
+    }
+    #header{
+        width: 930px;
+    }
+    #jumbotron{
+        width: 600px;
+        margin-left: 50px;
+    }
+    input{
+        width: 500px;
+    }
+    #messageBox{
+        width: 500px;
+    }
+    #contactForm{
+        width: 600px;
+        padding: 20px;
+    }
+    #divHeaderContact{
+        width: 580px;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -283,6 +317,31 @@ textarea{
    #aboutMe{
        margin-left: 33.5px;
    }
+   #portfoliobod{
+       width: 768px;
+   }
+   #jumbotronPortfolio{
+    width: 700px;
+}
+#projects1{
+    margin-left: 75px;
+}
+#projects2{
+    margin-left: 75px;
+}
+#projects3{
+    margin-left: 75px;
+}
+#divHeaderContact{
+    width: 670px;
+    margin-left: 0;
+}
+#jumbotron{
+    width: 700px;
+    margin-left: 30px;
+}
+
+   
     
 }
 
@@ -310,12 +369,54 @@ textarea{
         text-align: center;
         
     }
-    #navButtons a{
-        top: 130px;
+
+    #divHeader{
+        width: 380px;
     }
     #header{
         width: 640px;
     }
+    #topBar{
+        width: 640px;
+    }
+    #jumbotronPortfolio{
+        width: 400px;
+        height: 1300px;
+        margin-top: 60px;
+        margin-left: 110px;
+    }
 
+    #portfoliobod{
+        width: 500px;
+        height: 1800px;
+    }
+
+    #rpgGame{
+        margin-top: 20px;
+        left: 20px;
+        
+    }
+
+    #widget{
+        margin-top: 20px;
+        left: 20px;
+    }
+
+    #divHeaderContact{
+        width: 480px;
+    }
+
+    #jumbotron{
+        width: 500px;
+        margin-top: 70px;
+        margin-left: 60px;
+    }
+
+    input{
+        width: 400px;
+    }
+    #messageBox{
+        width: 400px;
+    }
 }
 
